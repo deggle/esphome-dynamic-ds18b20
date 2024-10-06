@@ -1,5 +1,6 @@
 #include "esphome.h"
 #include <vector>
+#include "OneWire.h"
 
 class DynamicDS18B20Component : public Component, public Sensor {
  public:
